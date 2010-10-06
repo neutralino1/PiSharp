@@ -1,0 +1,349 @@
+.notice{
+color:white;
+-moz-border-radius:5px 5px 5px 5px;
+-webkit-border-radius:5px 5px 5px 5px;
+display:inline-block;
+font-weight:bold;
+padding:5px;
+}
+.fail{
+background:red;
+}
+.success{
+background:green;
+}
+div#helpBox{
+position:fixed;
+bottom:10px;
+right:20px;
+background-color:#FAFFBD;
+padding:10px 10px 5px 10px;
+color:grey;
+width:200px;
+}
+p#help{
+text-align:left;
+}
+.rounded10{
+-moz-border-radius:10px 10px 10px 10px;
+-webkit-border-radius:10px 10px 10px 10px;
+}
+body {
+font-size:11px;
+font-family:"Arial";
+}
+a{
+color:#000099;
+text-decoration:none;
+//font-weight:bold;
+}
+a:hover{
+color:#0000ff;
+}
+.center{
+text-align:center;
+}
+.bold {
+font-weight:bold;
+}
+#loginbox {
+//width:200px;
+//	padding:10px;
+text-align:center;
+padding:5px 25px 5px 25px;
+margin:25px;
+display:inline-block;
+background:#D5D5D5;
+-moz-box-shadow: 0px 0px 10px #505050;
+-webkit-box-shadow: 0 0px 10px #505050;
+}
+#tablogin {
+//border:2px solid black;
+}
+.sumlist{
+margin-left:-25px;
+}
+.bold{
+font-weight:bold;
+}
+#failedlogin {
+text-align:center;
+margin-bottom:10px;
+color:red;
+font-weight:bold;
+}
+.aligncenter{
+margin-left:auto;
+margin-right:auto;
+}
+#tabschedule{
+//border:1px solid grey;
+}
+div#summary{
+padding:5px 25px 5px 25px;
+margin:25px;
+margin-bottom:40px;
+display:inline-block;
+background:#D5D5D5;
+min-width:300px;
+-moz-box-shadow: 0px 0px 10px #505050;
+-webkit-box-shadow: 0 0px 10px #505050;
+}
+.title{
+font-weight:bold;
+font-size:13px;
+color: #444;
+text-shadow: 0 1px 0 #ffffff;
+}
+#admintitle{
+margin-bottom:10px;
+}
+div.main{
+padding:25px;
+margin:25px;
+display:inline-block;
+background:#D5D5D5;
+-moz-border-radius:10px 0px 10px 10px;
+-webkit-border-radius:10px 0px 10px 10px;
+-moz-box-shadow: 0px 0px 10px #505050;
+-webkit-box-shadow: 0 0px 10px #505050;
+}
+div#admin{
+margin-top:40px;
+}
+div#booking{
+
+}
+.posrel{
+position:relative;
+}
+.whichroom{
+font-size:12px;
+position:absolute;
+font-weight:bold;
+top:-59px;
+right:0px;
+padding:10px;
+width:80px;
+-moz-border-radius:10px 10px 0px 0px;
+-webkit-border-radius:10px 10px 0px 0px;
+}
+.backtab{
+font-size:11px;
+position:absolute;
+font-weight:bold;
+top:-49px;
+right:-25px;
+padding:5px;
+width:100px;
+-moz-border-radius:10px 10px 0 0;
+-webkit-border-radius:10px 10px 0 0;
+color: #D5D5D5;
+background:#7d7d7d;
+text-shadow: 0 1px 0 #000000;
+background:-webkit-gradient(linear, left bottom, left top, from(#7d7d7d), to(#9d9d9d));
+background:-moz-linear-gradient(bottom, #7d7d7d, #9d9d9d);
+background:-o-linear-gradient(bottom, #7d7d7d, #9d9d9d);
+background:linear-gradient(bottom, #7d7d7d, #9d9d9d);
+//z-index:-1;
+}
+.sumtab{
+font-size:11px;
+position:absolute;
+font-weight:bold;
+top:5px;
+right:0px;
+padding:5px;
+width:50px;
+-moz-border-radius:0 0 10px 10px;
+-webkit-border-radius:0 0 10px 10px;
+color: #D5D5D5;
+background:#7d7d7d;
+text-shadow: 0 1px 0 #000000;
+background:-webkit-gradient(linear, left bottom, left top, from(#9d9d9d), to(#7d7d7d));
+background:-moz-linear-gradient(bottom, #7d7d7d, #9d9d9d);
+background:-o-linear-gradient(bottom, #7d7d7d, #9d9d9d);
+background:linear-gradient(bottom, #7d7d7d, #9d9d9d);
+//z-index:-1;
+}
+#logout{
+right:-10px;
+}
+#passwd{
+right:50px;
+width:100px;
+border-right:1px solid #666;
+}
+.whichroom:hover, .sumtab:hover, .backtab:hover{
+background:#00aeef;
+background:-webkit-gradient(linear, left bottom, left top, from(#D5D5D5), to(#00aeef));
+background:-moz-linear-gradient(bottom, #D5D5D5, #00aeef);
+background:-o-linear-gradient(bottom, #D5D5D5, #00aeef);
+background:linear-gradient(bottom, #D5D5D5, #00aeef);
+color: #444;
+text-shadow: 0 1px 0 #ffffff;
+}
+#room566{
+right:-25px;
+}
+#room52{
+right:75px;
+}
+.thisroom{
+color: #444;
+background:#D5D5D5;
+text-shadow: 0 1px 0 #ffffff;
+background:-webkit-gradient(linear, left bottom, left top, from(#D5D5D5), to(#F5F5F5));
+background:-moz-linear-gradient(bottom, #D5D5D5, #F5F5F5);
+background:-o-linear-gradient(bottom, #D5D5D5, #F5F5F5);
+background:linear-gradient(bottom, #D5D5D5, #F5F5F5);
+}
+.otherroom{
+color: #D5D5D5;
+background:#7d7d7d;
+text-shadow: 0 1px 0 #000000;
+background:-webkit-gradient(linear, left bottom, left top, from(#7d7d7d), to(#9d9d9d));
+background:-moz-linear-gradient(bottom, #7d7d7d, #9d9d9d);
+background:-o-linear-gradient(bottom, #7d7d7d, #9d9d9d);
+background:linear-gradient(bottom, #7d7d7d, #9d9d9d);
+//z-index:-1;
+}
+input{
+border: 2px solid #d0d0d0;
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+padding-left:5px;
+text-align:center;
+background-color:#FAFFBD;
+}
+#notice{
+color:red;
+}
+input.img{
+border: 0px solid #d0d0d0;
+}
+select{
+border: 2px solid #d0d0d0;
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+padding-left:5px;
+}
+.right{
+text-align:right;
+}
+.left{
+text-align:left;
+}
+
+input.btn{
+background:#f0f0f0;
+}
+td,th{
+padding:3px;
+}
+th{
+width:110px;
+}
+th.t0{
+background:#E9EDF4;
+}
+td.t0{
+background:#E9EDF4;
+height:32px;
+}
+th.t1{
+background:#D0D8E8;
+}
+td.t1{
+background:#D0D8E8;
+height:32px;
+}
+td.tl0{
+background:#F6F7FA;
+}
+td.tl1{
+background:#E9EDF4;
+}
+td.tl1:hover{
+background:#ffffff;
+}
+td.tl0:hover{
+background:#ffffff;
+}
+.right{
+text-align:right;
+}
+td.yours0{
+background:#7cff7f;
+//background:#5fff6e;
+}
+td.yours1{
+background:#9dffa6;
+}
+td.notyours0{
+background:#ff6d6d;
+}
+td.notyours1{
+background:#E00000;
+}
+div.band{
+text-align:center;
+}
+div.det_user{
+font-size:10px;
+float:left;
+}
+div.det_room{
+font-size:10px;
+float:right;
+}
+div.tooltip{
+display:none;
+position:absolute;
+width:150px;
+background:#F5F5F5;
+border:1px solid #D5D5D5;
+padding:4px;
+text-align:center;
+background:-webkit-gradient(linear, left top, left bottom, from(#D5D5D5), to(#F5F5F5));
+background:-moz-linear-gradient(top, #D5D5D5, #F5F5F5);
+background:-o-linear-gradient(top, #D5D5D5, #F5F5F5);
+background:linear-gradient(top, #D5D5D5, #F5F5F5);
+-moz-box-shadow: 0 3px 3px #999;
+-webkit-box-shadow: 0 3px 3px #999;
+}
+div#ToolTipDiv{
+display:none;
+position:absolute;
+width:200px;
+}
+div#CancelDiv{
+display:none;
+position:absolute;
+}
+div#NoMoreDiv{
+display:none;
+position:absolute;
+}
+span#bookthisslot{
+font-weight:bold;
+font-size:12px;
+}
+form#bookform{
+margin:10px 0px 10px 0px;
+}
+.rounded {
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+}
+a#submit{
+background:-moz-linear-gradient(top, #2daebf, #007d9a);
+padding:5px;
+border-bottom: 1px solid rgba(0,0,0,0.25);
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+td.action{
+background:white;
+}
